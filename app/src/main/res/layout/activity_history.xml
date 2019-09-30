@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:context=".view.History">
+
+      <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <include layout="@layout/toolbar" />
+
+            <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+                  <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/history"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="@dimen/dimen_small"
+                        android:paddingEnd="@dimen/dimen_small"
+                        android:paddingTop="@dimen/dimen_small"/>
+
+                  <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_export"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="@dimen/dimen_default"
+                        android:layout_marginBottom="@dimen/dimen_default"
+                        android:text="export"
+                        android:padding="@dimen/dimen_default"
+                        android:background="@color/colorBlackBlue"
+                        android:textColor="@color/colorWhite"/>
+            </RelativeLayout>
+
+      </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

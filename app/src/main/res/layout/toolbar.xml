@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      app:cardBackgroundColor="@color/colorAccentDown"
+      android:padding="@dimen/dimen_small"
+      app:cardElevation="2dp"
+      app:cardMaxElevation="4dp">
+      <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                  android:id="@+id/toolbar_back"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/ic_arrow_back"
+                  android:layout_marginStart="@dimen/dimen_small"
+                  android:layout_marginTop="@dimen/dimen_small"/>
+            <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_toEndOf="@id/toolbar_back"
+                  android:layout_marginStart="@dimen/dimen_default"
+                  android:text="Registered Member List"
+                  android:textColor="@color/colorWhite"
+                  android:textStyle="bold"
+                  android:textSize="18sp"
+                  android:fontFamily="@font/advent_pro_medium"
+                  android:padding="@dimen/dimen_small"/>
+            <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/textCount"
+                  android:layout_alignParentEnd="true"
+                  android:text=""
+                  android:textColor="@color/colorWhite"
+                  android:textSize="20sp"
+                  android:padding="@dimen/dimen_small"
+                  android:layout_marginEnd="@dimen/dimen_default"
+                  android:textStyle="bold"/>
+      </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

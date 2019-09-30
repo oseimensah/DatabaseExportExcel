@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <dimen name="dimen_medium">40dp</dimen>
+      <dimen name="dimen_default">16dp</dimen>
+      <dimen name="dimen_medium_one">52dp</dimen>
+      <dimen name="dimen_medium_two">62dp</dimen>
+      <dimen name="dimen_small">8dp</dimen>
+      <dimen name="dimen_medium_three">68dp</dimen>
+      <dimen name="standard_55">60dp</dimen>
+      <dimen name="standard_105">120dp</dimen>
+</resources>
